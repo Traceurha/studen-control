@@ -1,0 +1,48 @@
+body {
+  background-image: url("https://drive.google.com/uc?id=1pv6-ZQVJyMv9RKxVmDx4hppL5TDn_Jo1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px 0px; /* X=0, Y=20*/
+}
+
+.center-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 70px;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="submit"] {
+  background-color: green;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: blue;
+}
